@@ -4,5 +4,17 @@
 2) npm install
 3) npm start
 
+Link : (https://portfolio-pk.netlify.app/)
 
-![port](https://github.com/pushpendrakukreti/dev-portfolio/blob/main/src/Assets/home-bg.jpg)
+# Home Page
+
+![port](https://github.com/pushpendrakukreti/dev-portfolio/blob/main/src/Assets/1.png)
+
+# About
+
+![port](https://github.com/pushpendrakukreti/dev-portfolio/blob/main/src/Assets/2.png)
+![port](https://github.com/pushpendrakukreti/dev-portfolio/blob/main/src/Assets/3.png)
+![port](https://github.com/pushpendrakukreti/dev-portfolio/blob/main/src/Assets/4.png)
+
+# Resume
+![port](https://github.com/pushpendrakukreti/dev-portfolio/blob/main/src/Assets/5.png)
