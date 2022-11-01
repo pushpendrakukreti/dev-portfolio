@@ -28,8 +28,8 @@ function Resume() {
           </Button>
         </Row>
         <Row>
-          <img src={pk} alt={"Resume"} />
-          <img src={pk2} alt={"Resume"} />
+          <img src={pk} alt={"Resume1"} />
+          <img src={pk2} alt={"Resume2"} />
         {/* <a href="../../Assets/pushpendra.pdf">example</a> */}
           {/* <Document file="pdf.pdf" onLoadSuccess={pdf}>
             <Page pageNumber={pageNumber} />
