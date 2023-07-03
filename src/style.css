@@ -8,7 +8,7 @@ html {
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(12, 10, 22, 0.463)
   );
 
   --imp-text-color: #c770f0;
@@ -254,7 +254,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg3.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -317,13 +317,13 @@ html {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 40px !important;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
+  padding-top: 40px !important;
+  padding-bottom: 50px !important;
   text-align: center;
 }
 
@@ -442,14 +442,14 @@ html {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 120px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--section-background-color), url(./Assets/home-bg3.jpg) !important;
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -540,9 +540,9 @@ html {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 130px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--section-background-color), url(./Assets/home-bg.jpg) !important;
   color: white !important;
 }
 
@@ -602,13 +602,13 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--section-background-color), url(./Assets/home-bg3.jpg) !important;
   color: white !important;
 }
 
 .resume {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
   justify-content: center;
 }
 

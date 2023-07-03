@@ -9,7 +9,7 @@ import {
 } from "react-icons/di";
 import { AiOutlineHtml5 } from "react-icons/ai";
 
-import { SiMicrosoftsqlserver,SiCss3,SiBootstrap,SiDotNet,SiJquery } from "react-icons/si";
+import { SiMicrosoftsqlserver,SiCss3,SiBootstrap,SiDotNet,SiJquery,SiGraphql,SiRedux,SiAmazonaws,SiAzuredevops } from "react-icons/si";
 
 
 
@@ -23,6 +23,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+      </Col> 
       <Col xs={4} md={2} className="tech-icons">
         <AiOutlineHtml5 />
       </Col>
@@ -45,10 +48,16 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGraphql />
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftsqlserver />
       </Col>  
       <Col xs={4} md={2} className="tech-icons">
-        <SiDotNet />
+        <SiAmazonaws />
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAzuredevops />
       </Col>    
     </Row>
   );

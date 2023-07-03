@@ -50,20 +50,20 @@ function Projects() {
               isBlog={false}
               title="Exchange Proto"
               description="This is the exchange proto web-app which allow user to provide real time of stock market graph. Tech Stack : React.js, React-Redux, HTML-5 , CSS-3, material ui."
-              link="https://github.com/priyajoshipj/exchange-proto"
+              link="https://github.com/pushpendrakukreti/exchange-proto"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cardmanager}
+              imgPath={portfolio}
               isBlog={false}
-              title="Card manager"
-              description="This is the card manager app where user can add card manage card and do add sub task of any category. Tech Stack : React.js, React-Redux, Node.js, socket.io, HTML-5 , CSS-3, Bootstrap."
-              link="https://github.com/priyajoshipj/CardManager"
+              title="Dev Portfolio"
+              description="This is my personal portfolio which is build on react.js. Here i've shown my bunch of work which i've been worked on over the years."
+              link="https://github.com/pushpendrakukreti/dev-portfolio"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -81,17 +81,17 @@ function Projects() {
               isBlog={false}
               title="Blog"
               description="This is blog page build with MERN technology for database i've use mongodb for backend i've use node and frontend i've use react framework with redux middleware by using this app we can add content also we con update and delete content."
-              link="https://github.com/priyajoshipj/Blog"
+              // link="https://github.com/priyajoshipj/Blog"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolio}
+              imgPath={cardmanager}
               isBlog={false}
-              title="Dev Portfolio"
-              description="This is my personal portfolio which is build on react.js. Here i've shown my bunch of work which i've been worked on over the years."
-              link="https://github.com/pushpendrakukreti/dev-portfolio"
+              title="Card manager"
+              description="This is the card manager app where user can add card manage card and do add sub task of any category. Tech Stack : React.js, React-Redux, Node.js, socket.io, HTML-5 , CSS-3, Bootstrap."
+              // link="https://github.com/priyajoshipj/CardManager"
             />
           </Col>
 

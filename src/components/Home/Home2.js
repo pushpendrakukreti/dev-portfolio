@@ -76,9 +76,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
+              <p style={{ textAlign: "left" }}>
               I'm a software developer 💻 acquired more than <b className="purple">{yearCalculator()}</b> years of
-              experience by delivering quality code to the companies I've worked with i.e.
-              <div style={{ textAlign: "right" }}>
+              experience by delivering quality work to the companies I've worked with i.e.,
+              </p>
+              <div style={{ textAlign: "left" }}>
                 <b>
                   <br /><b className="purple">Capgemini</b> as Full Stack Developer
                   <br /><b className="purple">Koenig</b> as Full Stack Developer
@@ -86,16 +88,16 @@ function Home2() {
                 </b>
               </div>
               <br />
-              I've been working on a variety of projects, including <i style={{ fontFamily: "arial", color: "#a588c0" }}>"Delivery Management, Resource Management,
-                E-Commerce, CMS, CRM, Educational games, Chatbot, Single Page Applications"</i>. I have a experience with Modern Javascript Library and Frameworks tools
-              (e.g. React, Redux, Node.js ,HTML5, CSS3, Bootstrap 4, Web API, WCF, MS SQL Server and .NET Framework).
-              <br />    <br />
+              I have a proven track record in diverse domains such as: 
+              <br/> <i style={{ fontFamily: "arial", color: "#a588c0" }}>"E-Commerce, Finance, Education and Logistics"</i>
+              {/* <br /> I have a experience with Modern Javascript Library and Frameworks tools. */}
+              <br />    
+              <br />
               <b> Tech Stack : </b>
               <b className="" style={{ fontFamily: "arial", color: "#a588c0" }}>
-                JavaScript | React | Redux | HTML5 | CSS3 | Bootstrap 4 | jQuery | Node.js | MongoDB | Web API
-                | WCF | MS SQL Server | .NET | MVC | Git | Azure DevOps </b>
+              JavaScript | ReactJs | Node.js | HTML5 | CSS3 | jQuery | Bootstrap | Web API | GraphQL | WCF | MS SQL Server | MongoDB | Git | TFS | Azure </b>
               <br /><br />
-              I am proficient in code optimization to improve the performance.
+              I am proficient in code optimization to improve the performance of applications.
               <br />
             </p>
           </Col>
