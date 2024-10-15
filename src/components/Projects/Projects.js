@@ -1,8 +1,9 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Button } from "@mui/material";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from "@mui/icons-material/GitHub";
 import todo from "../../Assets/Projects/todo.png";
 import chatroom from "../../Assets/Projects/chatroom.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
@@ -63,7 +64,6 @@ function Projects() {
             />
           </Col>
 
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
@@ -90,15 +90,23 @@ function Projects() {
               isBlog={false}
               title="Card manager"
               description="This is the card manager app where user can add card manage card and do add sub task of any category. Tech Stack : React.js, React-Redux, Node.js, socket.io, HTML-5 , CSS-3, Bootstrap."
-              // link="https://github.com/priyajoshipj/CardManager"
             />
           </Col>
-
         </Row>
         <Row>
-          <Col md={12} style={{ color: "white", fontSize: "large" }}>  For more projects click on icon below
-          <br></br>
-          <Button href="https://github.com/pushpendrakukreti"><GitHubIcon></GitHubIcon></Button>
+          <Col md={12} style={{ color: "white", fontSize: "large" }}>
+            {" "}
+            For more projects click on icon below
+            <br /><br />
+            <Button
+              className="btn btn-primary"
+              component="a"
+              href="https://github.com/pushpendrakukreti"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHubIcon />
+            </Button>
           </Col>
         </Row>
       </Container>

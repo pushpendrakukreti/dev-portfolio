@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { ArrowDropDownCircleOutlined } from "@mui/icons-material";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
@@ -27,6 +28,13 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+              </div>
+
+              <div style={{ padding: 50, marginTop: 50, textAlign: "left" }}>
+                <p style={{ fontSize: "large" }}>
+                  <b>Please scroll to know more </b>
+                  <ArrowDropDownCircleOutlined />
+                </p>
               </div>
             </Col>
 
