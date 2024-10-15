@@ -2,7 +2,9 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman
+  SiPostman,
+  SiJira,
+  SiConfluence
 } from "react-icons/si";
 import {
   AiFillWindows,
@@ -18,6 +20,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiConfluence />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <AiFillGithub />
