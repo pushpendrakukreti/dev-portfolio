@@ -9,9 +9,7 @@ import {
 } from "react-icons/di";
 import { AiOutlineHtml5 } from "react-icons/ai";
 
-import { SiMicrosoftsqlserver,SiCss3,SiBootstrap,SiDotNet,SiJquery,SiGraphql,SiRedux,SiAmazonaws,SiAzuredevops } from "react-icons/si";
-
-
+import { SiMicrosoftsqlserver,SiCss3,SiBootstrap,SiJquery,SiGraphql,SiRedux,SiAmazonaws,SiAzuredevops } from "react-icons/si";
 
 function Techstack() {
   return (

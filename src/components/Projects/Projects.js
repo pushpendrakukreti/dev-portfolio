@@ -11,7 +11,6 @@ import expense from "../../Assets/Projects/expense-tracker.png";
 import cardmanager from "../../Assets/Projects/cardmanager.png";
 import exchangeProto from "../../Assets/Projects/exchangeProto.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">

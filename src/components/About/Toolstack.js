@@ -1,21 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
   SiVisualstudiocode,
-  SiJupyter,
-  SiPostman,
-  SiHeroku
+  SiPostman
 } from "react-icons/si";
-
 import {
-  AiFillWindows,AiFillGithub,AiOutlineConsoleSql
+  AiFillWindows,
+  AiFillGithub,
+  AiOutlineConsoleSql,
 } from "react-icons/ai";
-
-// import {
-//   BsGithub,
-// } from "react-icons/bs";
-
 
 function Toolstack() {
   return (
@@ -34,7 +27,7 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <AiOutlineConsoleSql />
-      </Col>      
+      </Col>
     </Row>
   );
 }
