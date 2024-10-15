@@ -5,19 +5,18 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillGooglePlusCircle
-
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const yearCalculator = () => {
   var userinput = "2018-04-01";
   var dob = new Date(userinput);
-  var dobYear = dob.getYear();
+  var dobYear = dob.getFullYear();  // getFullYear instead of getYear for accuracy
   var dobMonth = dob.getMonth();
   var dobDate = dob.getDate();
 
   let now = new Date();
-  var currentYear = now.getYear();
+  var currentYear = now.getFullYear();  // getFullYear instead of getYear
   var currentMonth = now.getMonth();
   var currentDate = now.getDate();
 
@@ -26,42 +25,48 @@ const yearCalculator = () => {
 
   let yearAge = currentYear - dobYear;
 
-  if (currentMonth >= dobMonth) var monthAge = currentMonth - dobMonth;
-  else {
+  let monthAge, dateAge; // Declare monthAge and dateAge with let outside the blocks
+
+  if (currentMonth >= dobMonth) {
+    monthAge = currentMonth - dobMonth;
+  } else {
     yearAge--;
-    var monthAge = 12 + currentMonth - dobMonth;
+    monthAge = 12 + currentMonth - dobMonth;
   }
 
-  if (currentDate >= dobDate) var dateAge = currentDate - dobDate;
-  else {
+  if (currentDate >= dobDate) {
+    dateAge = currentDate - dobDate;
+  } else {
     monthAge--;
-    var dateAge = 31 + currentDate - dobDate;
+    dateAge = 31 + currentDate - dobDate;
 
     if (monthAge < 0) {
       monthAge = 11;
       yearAge--;
     }
   }
+
   age = {
     years: yearAge,
     months: monthAge,
     days: dateAge,
   };
 
-  if (age.years > 0 && age.months > 0 && age.days > 0)
+  if (age.years > 0 && age.months > 0 && age.days > 0) {
     ageString = age.years + "." + age.months;
-  else if (age.years == 0 && age.months == 0 && age.days > 0)
+  } else if (age.years === 0 && age.months === 0 && age.days > 0) {
     ageString = "" + age.days + "";
-  else if (age.years > 0 && age.months == 0 && age.days == 0)
+  } else if (age.years > 0 && age.months === 0 && age.days === 0) {
     ageString = age.years + ".";
-  else if (age.years > 0 && age.months > 0 && age.days == 0)
+  } else if (age.years > 0 && age.months > 0 && age.days === 0) {
     ageString = age.years + "." + age.months;
-  else if (age.years == 0 && age.months > 0 && age.days > 0)
+  } else if (age.years === 0 && age.months > 0 && age.days > 0) {
     ageString = age.months + "." + age.days;
-  else if (age.years > 0 && age.months == 0 && age.days > 0)
+  } else if (age.years > 0 && age.months === 0 && age.days > 0) {
     ageString = age.years + "." + age.days;
-  else if (age.years == 0 && age.months > 0 && age.days == 0)
+  } else if (age.years === 0 && age.months > 0 && age.days === 0) {
     ageString = age.months;
+  }
 
   return ageString;
 };
@@ -113,6 +118,7 @@ function Home2() {
             <p>
               Feel free to <a href="https://www.linkedin.com/in/pkukreti"
                 target="_blank"
+                rel="noreferrer"
                 className="purple">connect </a>!
             </p>
             <ul className="home-about-social-links">
@@ -128,7 +134,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:kukretiaryan@gmail.com"
+                  href="mailto:kukretipushpendra@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -153,4 +159,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
