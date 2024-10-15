@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+        <p style={{ textAlign: "justify" }}>
             Hey There, I am <span className="purple">Pushpendra Kukreti </span>
             from <span className="purple"> Delhi, India.</span>
            <br /> <br />I’m a software engineer specializing in building and designing exceptional digital experiences. I enjoy creative and innovate new things that exist on the internet. 
@@ -30,6 +30,10 @@ function AboutCard() {
             </li>
           </ul>
 
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Strive to build things that make a difference!"{" "}
+          </p>
+          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
